@@ -2,11 +2,31 @@ html,body {
   height:100%;
 }
 
-.first {
-  height:100vh;
-  min-height:400px;
-  background-size:cover;
-  background-image:url('../img/gb-background.png');
+.overimg {
+  position: absolute;
+  top: 0;
+}
+
+#navbar {
+  position: relative;
+  z-index: 1;
+  max-width: 1023px;
+  /*Set this opacity for a visiable background through navbar*/
+  background-color: transparent;
+}
+
+.nav-text {
+  opacity: 1;
+  font-family: Avenir-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.large-heading {
+  font-family: Avenir-Heavy;
+  color: #FFFFFF;
+  letter-spacing: 0;
 }
 
 .affix {
