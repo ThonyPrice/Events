@@ -12,8 +12,9 @@ export default class Layout extends React.Component {
       }}>
         <BackgroundImage />
         <div style={{
-          position: 'relative',
-          top: '0px'
+          position: 'absolute',
+          top: '0',
+          width: '100%'
         }}>
           <Navbar />
         </div>
