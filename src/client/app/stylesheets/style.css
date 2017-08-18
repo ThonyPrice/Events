@@ -4,7 +4,9 @@ html,body {
 
 .overimg {
   position: absolute;
-  top: 0;
+  min-height: 400px;
+  background-size: cover;
+  overflow: hidden;
 }
 
 #navbar {
@@ -23,10 +25,38 @@ html,body {
   letter-spacing: 0;
 }
 
-.large-heading {
+.header-text {
+  top: 100px;
   font-family: Avenir-Heavy;
   color: #FFFFFF;
   letter-spacing: 0;
+}
+
+.sub-header-text {
+  top: 110px;
+  font-family: Avenir-Book;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.searchbox {
+  top: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: white;
+  box-shadow: 2px 2px 1px #888888;
+}
+
+.searchbox input {
+  font-family: Avenir-Book;
+  font-size: 14px;
+  color: #ADB0B6;
+  letter-spacing: 0;
+  top: 15px;
+  bottom: 15px;
+}
+
+.search-internal {
 }
 
 .affix {

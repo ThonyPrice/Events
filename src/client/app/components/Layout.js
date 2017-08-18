@@ -9,7 +9,7 @@ export default class Layout extends React.Component {
       <div>
         <div>
 
-          <img src="app/img/gb-background.png" className="img-fluid overimg" alt="Responsive image" />
+          <img src="app/img/gb-background.png" className="overimg" alt="Responsive image" />
 
           <nav className="navbar navbar-fixed-top navbar-toggleable-md navbar-transparent navbar-light bg-faded" id="navbar">
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,14 +34,34 @@ export default class Layout extends React.Component {
             </div>
           </nav>
 
-          <div className="container text-center large-heading">
+          <div className="container text-center">
             <div className="row">
-              <div className="col-12">
-                <h1>Events</h1>
+              <div className="col-12 display-1 header-text">
+                Events
+              </div>
+              <div className="col-12 display-4 sub-header-text">
+                Find fun events near you
               </div>
             </div>
           </div>
 
+        </div>
+
+        <div className="container searchbox">
+          <div className="row">
+              <div className="col-sm-12 col-md-3 search-internal">
+                <input type="text" className="firstname" placeholder="Type of event"></input>
+              </div>
+              <div className="col-sm-12 col-md-3 search-internal">
+                <input type="text" className="location" placeholder="Location"></input>
+              </div>
+              <div className="col-sm-12 col-md-3 search-internal">
+                <input type="text" className="date" placeholder="All dates"></input>
+              </div>
+              <div className="col-sm-12 col-md-3 search-internal">
+                <input type="submit" value="Submit"></input>
+              </div>
+          </div>
         </div>
 
         <section className="first">
