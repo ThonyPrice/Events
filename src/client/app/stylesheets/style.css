@@ -1,5 +1,7 @@
 html,body {
   height:100%;
+  /* Rectangle 5: */
+  background: #EFEFEF;
 }
 
 .overimg {
